@@ -1,5 +1,5 @@
 r"""
-LocalDB is a module made for managing databases locally!
+RouteDB is a module made for managing databases locally!
 
 Go ahead and explore the module! Make something fun! Maybe you could integrate it into a flask app!
 """

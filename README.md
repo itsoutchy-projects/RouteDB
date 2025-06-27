@@ -1,5 +1,5 @@
-# LocalDB
-LocalDB is a package built for managing databases locally. Its path hierarchy is simple and easy to use
+# RouteDB
+RouteDB is a package built for managing databases locally. Its path hierarchy is simple and easy to use
 
 ## How to use
 If you're not sure, check out this neat demonstration to learn the basics.
@@ -34,14 +34,14 @@ db.write(f"hello world! from {datetime.datetime.now().strftime("%d/%m/%Y, %H:%M:
 ## Demos
 Here we have a simple demo which demonstrates how you can add a route (which makes a new folder if it exists), and how you can write data to one:
 ```python
-import LocalDB
+import RouteDB
 import datetime
 import os
 
 types = {
     "string": str
 }
-db = LocalDB.Database("db", types)
+db = RouteDB.Database("db", types)
 route = "my amazing route aaaaaaaaaaaaaa"
 
 print(db.addRoute(route, "string"))
