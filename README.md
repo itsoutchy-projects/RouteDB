@@ -1,6 +1,11 @@
 # RouteDB
 RouteDB is a package built for managing databases locally. Its path hierarchy is simple and easy to use
 
+To install run:
+```
+pip install RouteDB
+```
+
 ## How to use
 If you're not sure, check out this neat demonstration to learn the basics.
 
