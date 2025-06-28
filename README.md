@@ -1,3 +1,5 @@
+![PyPI - Version](https://img.shields.io/pypi/v/RouteDB)
+
 # RouteDB
 RouteDB is a package built for managing databases locally. Its path hierarchy is simple and easy to use
 
