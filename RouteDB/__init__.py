@@ -71,11 +71,12 @@ class Database:
         if not type(data) == self.types[theRoute.type]:
             raise TypeError(f"The type of the data being passed to route '{route}' is incorrect")
         routPath = os.path.join(self.path, route, name)
+        mode = "b" if self.types[theRoute.type] == bytes else ""
         if not os.path.exists(routPath):
-            with open(routPath, "x") as f:
+            with open(routPath, f"x{mode}") as f:
                 f.write(data)
         else:
-            with open(routPath, "w") as f:
+            with open(routPath, f"w{mode}") as f:
                 f.write(data)
 
     def addRoute(self, name : str, type : str):

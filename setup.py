@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="RouteDB",
-    version="0.0.2",
+    version="0.0.3",
     author="itsoutchy",
     author_email="itsoutchy@itsoutchy.xyz",
     packages=["RouteDB"],
